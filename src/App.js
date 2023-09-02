@@ -1,10 +1,13 @@
 import React from 'react'
-import AxiosTut from './AxiosTut';
+import Button from "./components/Button"
+import Profile from "./components/Profile"
 
 const App = () => {
   return (
     <div>
-    <AxiosTut/>
+      <Button/>
+      <Profile/>
+
     </div>
   )
 }
